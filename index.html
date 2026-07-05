@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zainab Qureshi Portfolio</title>
+<meta name="description" content="Zainab Qureshi — Cybersecurity graduate specializing in SOC, incident response, malware analysis and security tooling." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="#top" class="nav-logo" aria-label="Home">
+      <span class="prompt">zainab<span class="accent-text">@</span>portfolio</span><span class="cursor">_</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link active">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#blogs" class="nav-link">Blogs</a></li>
+      <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ ABOUT / HERO ============ -->
+  <section id="about" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Available for SOC &amp; Incident Response roles</p>
+        <h1>Zainab Qureshi</h1>
+        <p class="hero-role">Cybersecurity Graduate · <span class="accent-text">SOC · Incident Response · Malware Analysis</span></p>
+        <p class="hero-desc">
+          BS graduate in Cyber Security with hands-on experience in penetration testing and malware
+          analysis. Active participant in multiple CTF competitions, and freelance blog writer covering
+          artificial intelligence and machine learning topics.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <ul class="hero-meta">
+          <li><a href="mailto:zainabqureshi620@gmail.com">zainabqureshi620@gmail.com</a></li>
+          <li><a href="https://github.com/zenix20" target="_blank" rel="noopener">github.com/zenix20</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="tdot tdot-r"></span><span class="tdot tdot-y"></span><span class="tdot tdot-g"></span>
+            <span class="terminal-title">zainab@portfolio:~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody"></div>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </div>
+
+    <div class="container skills-block">
+      <h2 class="skills-heading">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Security</h3>
+          <div class="tag-row">
+            <span class="tag">Malware Analysis</span>
+            <span class="tag">Digital Forensics</span>
+            <span class="tag">Vulnerability Assessment</span>
+            <span class="tag">Pentesting</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="tag-row">
+            <span class="tag">Wireshark</span>
+            <span class="tag">Metasploit</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Nmap</span>
+            <span class="tag">Autopsy</span>
+            <span class="tag">JADX</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="tag-row">
+            <span class="tag">AWS</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Jenkins</span>
+            <span class="tag">Helm</span>
+            <span class="tag">Prometheus</span>
+            <span class="tag">Grafana</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">scikit-learn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Education</p>
+      <h2 class="section-title">Academic Background</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">26</div>
+          <div class="timeline-card">
+            <div class="timeline-card-head">
+              <h3>BS Cybersecurity</h3>
+              <span class="timeline-date">2022 – 2026</span>
+            </div>
+            <p class="timeline-sub">COMSATS University Islamabad</p>
+            <p>Cumulative GPA: 3.78 / 4.00 (till 7th Semester).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Experience</p>
+      <h2 class="section-title">Work &amp; Internships</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">25</div>
+          <div class="timeline-card">
+            <div class="timeline-card-head">
+              <h3>Internship — Information Security Lab (NECOP)</h3>
+              <span class="timeline-date">Jul – Sep 2025</span>
+            </div>
+            <p class="timeline-sub">Malware Analysis &amp; Reverse Engineering Dept.</p>
+            <p>Analyzed samples across multiple AV engines, performed static/dynamic analysis, and researched TTPs of recent malware variants and APT groups.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Certifications</p>
+      <h2 class="section-title">Credentials</h2>
+      <p class="section-desc">21 certifications across professional security credentials, hands-on training, and applied coursework.</p>
+
+      <h3 class="cert-group-heading">Professional Certifications</h3>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <h3>Certified in Cybersecurity (CC)</h3>
+          <p class="cert-issuer">ISC2 · October 2025</p>
+          <p>Security principles, business continuity, access controls, network security &amp; security operations. Valid 2025–2028.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>SOC Fundamentals</h3>
+          <p class="cert-issuer">CyberExam · June 2026 · Score 94%</p>
+          <p>Certified SOC Practitioner (Fundamentals) — online proctored exam covering core SOC operations.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>GRC Fundamentals</h3>
+          <p class="cert-issuer">CyberExam · June 2026 · Score 85%</p>
+          <p>Certified GRC Practitioner — governance, risk, and compliance fundamentals.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>ISO/IEC 27001:2022 Information Security Associate</h3>
+          <p class="cert-issuer">SkillFront · June 2026</p>
+          <p>Associate-level credential covering the ISO/IEC 27001:2022 information security management standard.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Google Cybersecurity Professional Certificate</h3>
+          <p class="cert-issuer">Coursera · June 2025</p>
+          <p>8-course program: threat detection, risk management, network security, incident response using SIEM, IDS/NIDS &amp; packet analyzers.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Cybersecurity &amp; Privacy Certificate</h3>
+          <p class="cert-issuer">Microsoft / Coursera · January 2025</p>
+          <p>Password management, network traffic analysis, VPNs, network segmentation &amp; cloud security.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Introduction to Critical Infrastructure Protection</h3>
+          <p class="cert-issuer">OPSWAT Academy · February 2026</p>
+          <p>Standards and fundamentals of critical infrastructure protection (CIP).</p>
+        </article>
+      </div>
+
+      <h3 class="cert-group-heading">Hands-On Security Training — TryHackMe</h3>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <h3>CompTIA Pentest+</h3>
+          <p class="cert-issuer">TryHackMe · October 2024</p>
+          <p>Learning path aligned to the CompTIA Pentest+ exam objectives.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Cyber Security 101</h3>
+          <p class="cert-issuer">TryHackMe · October 2024</p>
+          <p>Core cybersecurity concepts across networking, web, and offensive security fundamentals.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Jr Penetration Tester</h3>
+          <p class="cert-issuer">TryHackMe · September 2024</p>
+          <p>Practical penetration testing path covering reconnaissance through exploitation basics.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Web Fundamentals</h3>
+          <p class="cert-issuer">TryHackMe · September 2024</p>
+          <p>Core web technologies and common web application vulnerabilities.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Complete Beginner</h3>
+          <p class="cert-issuer">TryHackMe · September 2024</p>
+          <p>Foundational path introducing Linux, networking, and security basics.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Introduction to Cyber Security</h3>
+          <p class="cert-issuer">TryHackMe · September 2024</p>
+          <p>Introductory path covering core security concepts and terminology.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Pre Security</h3>
+          <p class="cert-issuer">TryHackMe · September 2024</p>
+          <p>Networking and systems fundamentals as a foundation for offensive security.</p>
+        </article>
+      </div>
+
+      <h3 class="cert-group-heading">Specialized Courses — Udemy</h3>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <h3>Digital Forensics Masterclass: Forensic Science DFMC+ DFIR</h3>
+          <p class="cert-issuer">Udemy · OCSALY Academy · October 2024</p>
+          <p>Digital forensics and incident response methodology and tooling.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Learn Ethical Hacking and Penetration Testing (EHPT+)</h3>
+          <p class="cert-issuer">Udemy · OCSALY Academy · October 2024</p>
+          <p>Ethical hacking and penetration testing methodology from reconnaissance to reporting.</p>
+        </article>
+      </div>
+
+      <h3 class="cert-group-heading">Professional &amp; Programming Development — Coursera</h3>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <h3>Programming for Everybody (Getting Started with Python)</h3>
+          <p class="cert-issuer">University of Michigan · February 2023</p>
+          <p>Python fundamentals: variables, control structures, and basic program design.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Python Data Structures</h3>
+          <p class="cert-issuer">University of Michigan · April 2023</p>
+          <p>Python collections — lists, dictionaries, tuples — and file handling.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Using Python to Access Web Data</h3>
+          <p class="cert-issuer">University of Michigan · June 2023</p>
+          <p>Web scraping, APIs, and data parsing with Python (regex, HTML, JSON, XML).</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Write Professional Emails in English</h3>
+          <p class="cert-issuer">Georgia Institute of Technology · February 2023</p>
+          <p>Professional written communication for workplace contexts.</p>
+        </article>
+
+        <article class="cert-card">
+          <h3>Speak English Professionally</h3>
+          <p class="cert-issuer">Georgia Institute of Technology · April 2023</p>
+          <p>Professional spoken communication in person, online, and on the phone.</p>
+        </article>
+
+        <!-- To add a new certification, copy an <article class="cert-card"> block within the relevant group above -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Projects</p>
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-desc">A few things I've built while learning to break, defend, and automate systems.</p>
+
+      <div class="card-grid" id="projectGrid">
+
+        <article class="proj-card" data-repo="https://github.com/iuy-z/AndroX_Vulnerability_Detection_in_Android">
+          <div class="proj-thumb thumb-androx" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M32 4 8 16v16c0 15 10 24 24 28 14-4 24-13 24-28V16L32 4Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 32l7 7 13-15" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>AndroX</h3>
+            <p class="proj-sub">Android Security Assessment Platform</p>
+            <p class="proj-desc">Full-stack Android vulnerability detection platform: Flask REST API, React dashboard, XGBoost AI triage engine, ADB-based scanning, and an optional Android telemetry agent.</p>
+            <div class="tag-row">
+              <span class="tag">Flask</span><span class="tag">React</span><span class="tag">XGBoost</span><span class="tag">ADB</span><span class="tag">Groq LLM</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-androx">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/VPN_Server_From_Scratch">
+          <div class="proj-thumb thumb-vpn" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><rect x="14" y="26" width="36" height="26" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26v-6a10 10 0 0 1 20 0v6" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="38" r="4" fill="currentColor"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>WireGuard VPN Server</h3>
+            <p class="proj-sub">Custom Management Dashboard</p>
+            <p class="proj-desc">Self-hosted VPN built from scratch with WireGuard, NAT routing and IP forwarding, plus a custom Flask dashboard for live peer monitoring, JWT auth, and DNS-leak-protected client configs.</p>
+            <div class="tag-row">
+              <span class="tag">WireGuard</span><span class="tag">Flask</span><span class="tag">JWT</span><span class="tag">Docker</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-vpn">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/VulnBot">
+          <div class="proj-thumb thumb-vulnbot" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><circle cx="32" cy="26" r="10" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 36v10M22 46h20M18 30h-6M52 30h-6M22 20l-5-5M47 15l-5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>VulnBot</h3>
+            <p class="proj-sub">AI-Powered CVE Analysis Tool</p>
+            <p class="proj-desc">Retrieves real-time CVE data from NIST's NVD and generates human-readable explanations using a multi-AI fallback chain, with CVSS parsing, CISA KEV tracking, LRU caching, and PDF export.</p>
+            <div class="tag-row">
+              <span class="tag">Flask</span><span class="tag">Groq</span><span class="tag">Hugging Face</span><span class="tag">NVD API</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-vulnbot">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/devops-cloud-computing-">
+          <div class="proj-thumb thumb-devops" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M20 40a10 10 0 0 1-2-19.8A12 12 0 0 1 41 15a9 9 0 0 1 11 12A9 9 0 0 1 50 40H20Z" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>DevOps for Cloud Computing</h3>
+            <p class="proj-sub">Project Collection</p>
+            <p class="proj-desc">Seven hands-on projects: IaaS/PaaS on AWS, Docker Swarm secrets, Jenkins CI/CD with Selenium, Kubernetes HPA with Prometheus/Grafana, and MLOps malware-detection pipelines.</p>
+            <div class="tag-row">
+              <span class="tag">AWS</span><span class="tag">Kubernetes</span><span class="tag">Jenkins</span><span class="tag">Helm</span><span class="tag">Docker Swarm</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-devops">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/Digital-Forensics-Investigation">
+          <div class="proj-thumb thumb-forensics" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><circle cx="27" cy="27" r="15" fill="none" stroke="currentColor" stroke-width="3"/><path d="M38 38 52 52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M27 18v9l6 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Digital Forensics Investigation</h3>
+            <p class="proj-sub">Multi-Artifact Forensics Report</p>
+            <p class="proj-desc">Disk, memory, network, mobile, and email forensics investigations using Autopsy, Wireshark, Velociraptor, and FTK Imager across simulated intrusion and malware scenarios.</p>
+            <div class="tag-row">
+              <span class="tag">Autopsy</span><span class="tag">Wireshark</span><span class="tag">Velociraptor</span><span class="tag">ADB</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-forensics">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/Parallel-Vulnerability-Scanner">
+          <div class="proj-thumb thumb-scanner" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><circle cx="28" cy="28" r="16" fill="none" stroke="currentColor" stroke-width="3"/><path d="M39 39 50 50" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M28 20v16M20 28h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Parallel Vulnerability Scanner</h3>
+            <p class="proj-sub">MPI-Based Distributed Scanner</p>
+            <p class="proj-desc">Distributed vulnerability scanner using MPI for parallelized port scanning, Nmap service/version detection, and automated exploit discovery via Exploit-DB and Metasploit, with JSON reporting.</p>
+            <div class="tag-row">
+              <span class="tag">MPI</span><span class="tag">Nmap</span><span class="tag">Exploit-DB</span><span class="tag">Metasploit</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-scanner">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/Payload-Concealment-and-Clickjacking-Exploitation">
+          <div class="proj-thumb thumb-clickjack" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M32 6 8 16v16c0 15 10 24 24 28 14-4 24-13 24-28V16L32 6Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 22v14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="42" r="1.5" fill="currentColor"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Clickjacking &amp; Payload Concealment</h3>
+            <p class="proj-sub">Offensive Security Lab Report</p>
+            <p class="proj-desc">End-to-end attack-chain lab in an isolated VM environment: payload generation, SFX concealment, a decoy website, and reverse-shell post-exploitation — with a write-up on detection and mitigation (CSP, WAFs).</p>
+            <div class="tag-row">
+              <span class="tag">Metasploit</span><span class="tag">msfvenom</span><span class="tag">Apache</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-clickjack">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/weather-dashboard">
+          <div class="proj-thumb thumb-weather" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><circle cx="24" cy="24" r="8" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 10v4M24 34v4M10 24h4M34 24h4M14 14l3 3M31 31l3 3M34 14l-3 3M17 31l-3 3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M20 46a8 8 0 0 1 1-16 11 11 0 0 1 21 4 7 7 0 0 1-2 12H20Z" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Weather Dashboard</h3>
+            <p class="proj-sub">Responsive Weather App</p>
+            <p class="proj-desc">Flask + OpenWeatherMap-powered dashboard showing current conditions and a 3-day forecast, with city search and a responsive Bootstrap layout.</p>
+            <div class="tag-row">
+              <span class="tag">Flask</span><span class="tag">OpenWeatherMap API</span><span class="tag">Bootstrap</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-weather">View Details</button>
+          </div>
+        </article>
+
+        <article class="proj-card" data-repo="https://github.com/zenix20/Aesthetic-To-do-List">
+          <div class="proj-thumb thumb-todo" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><rect x="14" y="10" width="36" height="44" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 24h20M22 32h20M22 40h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 24l2 2 3-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Aesthetic To-Do List</h3>
+            <p class="proj-sub">Web App</p>
+            <p class="proj-desc">A minimal, category-filtered to-do list with dark mode, confetti on completion, a live progress bar, and persistent storage — built with Tailwind CSS and vanilla JavaScript.</p>
+            <div class="tag-row">
+              <span class="tag">Tailwind CSS</span><span class="tag">JavaScript</span><span class="tag">localStorage</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-todo">View Details</button>
+          </div>
+        </article>
+
+        <!--
+          To add a new project later, copy one <article class="proj-card"> block above,
+          give the button a new unique data-target, and add a matching .modal block
+          in the "PROJECT MODALS" section near the end of this file.
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BLOGS ============ -->
+  <section id="blogs" class="section">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Blogs</p>
+      <h2 class="section-title">Writing</h2>
+      <p class="section-desc">Long-form write-ups on Medium: security build logs, and notes on AI/ML.</p>
+
+      <div class="card-grid" id="blogGrid">
+
+        <article class="proj-card">
+          <div class="proj-thumb thumb-blog1" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M14 12h30l6 6v34H14V12Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26h20M22 34h20M22 42h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Building My Own VPN Server From Scratch</h3>
+            <p class="proj-sub">Medium · Security build log</p>
+            <p class="proj-desc">A step-by-step walkthrough of standing up a WireGuard VPN and building a custom Flask dashboard for live monitoring and peer management.</p>
+            <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/building-my-own-vpn-server-from-scratch-a248a2a2554c" target="_blank" rel="noopener">Read Article</a>
+          </div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-thumb thumb-blog2" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M14 12h30l6 6v34H14V12Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26h20M22 34h20M22 42h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>Next article — coming soon</h3>
+            <p class="proj-sub">Medium</p>
+            <p class="proj-desc">Placeholder card for the next blog post. Duplicate this card and update the title, description and link when it's published.</p>
+            <a class="btn btn-ghost" href="ADD_MEDIUM_LINK_HERE" target="_blank" rel="noopener">Read Article</a>
+          </div>
+        </article>
+
+        <!-- To add a new blog post, copy one <article class="proj-card"> block above -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <p class="eyebrow section-eyebrow">Contact</p>
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lede">Open to SOC, Incident Response, and security engineering roles — reach out any time.</p>
+          <ul class="contact-list">
+            <li><span class="c-icon">✉</span><a href="mailto:zainabqureshi620@gmail.com">zainabqureshi620@gmail.com</a></li>
+            <li><span class="c-icon">in</span><a href="https://www.linkedin.com/in/zainab-qureshi-43731a2a6" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><span class="c-icon">gh</span><a href="https://github.com/zenix20" target="_blank" rel="noopener">github.com/zenix20</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mdaryyar" method="POST">
+          <label for="cf-name" class="sr-only">Your Name</label>
+          <input id="cf-name" name="name" type="text" placeholder="Your Name" required />
+
+          <label for="cf-email" class="sr-only">Your Email</label>
+          <input id="cf-email" name="email" type="email" placeholder="Your Email" required />
+
+          <label for="cf-message" class="sr-only">Your Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+          <button type="submit" class="btn btn-primary btn-block" id="contactSubmit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-note">Powered by Formspree.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Zainab Qureshi</span>
+    <span class="footer-links">
+      <a href="https://github.com/zenix20" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:zainabqureshi620@gmail.com">Email</a>
+    </span>
+  </div>
+</footer>
+
+<!-- ============ PROJECT MODALS ============ -->
+<div class="modal-overlay" id="modalOverlay">
+
+  <div class="modal" id="modal-androx" role="dialog" aria-modal="true" aria-labelledby="modal-androx-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-androx-title">AndroX — Android Security Assessment Platform</h3>
+    <ul>
+      <li>Full-stack Android vulnerability detection platform combining a Flask REST API backend, a React web dashboard, an XGBoost AI triage engine, and an optional Android agent app.</li>
+      <li>System, network, app, and deep APK scanning over ADB, CVE matching against a vulnerability database, and an XGBoost model predicting per-CVE exploitability probability.</li>
+      <li>Static Exploit Analyzer (APK/ELF/script artifacts) and a Dynamic Analyzer with BLE/intent fuzzing, plus auto-generated PDF reports and Groq LLM plain-English scan summaries.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/iuy-z/AndroX_Vulnerability_Detection_in_Android" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-vpn" role="dialog" aria-modal="true" aria-labelledby="modal-vpn-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-vpn-title">WireGuard VPN Server + Management Dashboard</h3>
+    <ul>
+      <li>Self-hosted VPN server from scratch using WireGuard with NAT routing and IP forwarding, paired with a custom Flask dashboard for live peer monitoring and management.</li>
+      <li>JWT-based dashboard authentication (httponly + SameSite cookies) and auto-generated client configs with built-in DNS leak protection.</li>
+      <li>Containerized the dashboard and published the image to Docker Hub; full technical write-up published on Medium.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/VPN_Server_From_Scratch" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-vulnbot" role="dialog" aria-modal="true" aria-labelledby="modal-vulnbot-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-vulnbot-title">VulnBot — AI-Powered CVE Analysis Tool</h3>
+    <ul>
+      <li>AI-powered CVE analysis web app retrieving real-time vulnerability data from NIST's NVD with human-readable explanations.</li>
+      <li>Multi-AI fallback architecture (Groq → Hugging Face → rule-based) with CVSS parsing, CISA KEV tracking, LRU caching, and PDF report export.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/VulnBot" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-devops" role="dialog" aria-modal="true" aria-labelledby="modal-devops-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-devops-title">DevOps for Cloud Computing</h3>
+    <ul>
+      <li>Seven hands-on DevOps projects spanning IaaS/PaaS deployment (AWS EC2 &amp; Elastic Beanstalk), Docker Swarm secrets management, and MLOps malware-detection pipelines.</li>
+      <li>Jenkins CI/CD pipeline with GitHub webhooks, Flake8 linting, pytest unit tests, and Selenium browser integration tests running in headless Chrome.</li>
+      <li>Flask capstone application (Student Management &amp; Attendance System) deployed to Kubernetes (Minikube) with Deployment/Service/PVC manifests and a Horizontal Pod Autoscaler, monitored via Prometheus and Grafana dashboards installed with Helm.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/devops-cloud-computing-" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-forensics" role="dialog" aria-modal="true" aria-labelledby="modal-forensics-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-forensics-title">Digital Forensics Investigation</h3>
+    <ul>
+      <li>Examined forensic disk images (.E01) with Autopsy to extract file system artifacts, registry data, and suspicious file metadata.</li>
+      <li>Performed network forensics on packet captures with Wireshark, including credential extraction and attacker traffic pattern analysis.</li>
+      <li>Conducted memory analysis to identify malware artifacts, processes, and network connections from volatile memory dumps.</li>
+      <li>Carried out email forensics (header/IP/geolocation tracing), Android/iPhone mobile device analysis, and a Velociraptor-based endpoint monitoring investigation.</li>
+      <li>Simulated malware infections to analyze C2 traffic, persistence mechanisms, and mitigation strategies.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/Digital-Forensics-Investigation" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-scanner" role="dialog" aria-modal="true" aria-labelledby="modal-scanner-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-scanner-title">Parallel Vulnerability Scanner</h3>
+    <ul>
+      <li>Built a distributed, MPI-based vulnerability scanner for parallelized port scanning across multiple processes.</li>
+      <li>Integrated Nmap for service and version detection, plus automated exploit discovery via Exploit-DB and Metasploit.</li>
+      <li>Interactive CLI menu for running scans and generating structured JSON reports of open ports, services, and known exploits.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/Parallel-Vulnerability-Scanner" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-clickjack" role="dialog" aria-modal="true" aria-labelledby="modal-clickjack-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-clickjack-title">Clickjacking &amp; Payload Concealment Attack</h3>
+    <ul>
+      <li>Demonstrated a full offensive-security attack chain in an isolated VM lab: payload generation, SFX-based concealment, and delivery via a decoy website.</li>
+      <li>Set up a Metasploit listener and established a reverse shell, then performed post-exploitation (system info, screenshots, file transfer) using Meterpreter.</li>
+      <li>Documented findings with a mitigation-focused writeup covering Content Security Policy (CSP), web application firewalls, and user awareness training.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/Payload-Concealment-and-Clickjacking-Exploitation" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-weather" role="dialog" aria-modal="true" aria-labelledby="modal-weather-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-weather-title">Weather Dashboard</h3>
+    <ul>
+      <li>Responsive Flask web app showing current conditions (temperature, humidity, wind, pressure) and a 3-day forecast for any searched city.</li>
+      <li>Pulls live data from the OpenWeatherMap API, with a Bootstrap 5 + Font Awesome front end for a clean, mobile-friendly layout.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/weather-dashboard" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-todo" role="dialog" aria-modal="true" aria-labelledby="modal-todo-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-todo-title">Aesthetic To-Do List Web App</h3>
+    <ul>
+      <li>Minimal, category-filterable to-do list (Work / Personal / Urgent) with a real-time progress bar and motivational messages.</li>
+      <li>Confetti celebration on completing all tasks, dark mode toggle, and persistent storage via localStorage — built with Tailwind CSS and vanilla JavaScript.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/Aesthetic-To-do-List" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
