@@ -133,7 +133,7 @@
               <span class="timeline-date">2022 – 2026</span>
             </div>
             <p class="timeline-sub">COMSATS University Islamabad</p>
-            <p>Cumulative GPA: 3.78 / 4.00 (till 7th Semester).</p>
+            <p>Cumulative GPA: 3.80 / 4.00</p>
           </div>
         </div>
       </div>
@@ -350,6 +350,21 @@
           </div>
         </article>
 
+        <article class="proj-card" data-repo="https://github.com/zenix20/SENTINEL-Security-ML-Detection-Suite">
+          <div class="proj-thumb thumb-vulnbot" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M32 8L8 20v14c0 12 10 22 24 26 14-4 24-14 24-26V20L32 8Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 32l6 6 12-12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>SENTINEL</h3>
+            <p class="proj-sub">Real-Time Security ML Detection Suite</p>
+            <p class="proj-desc">Live SOC-style dashboard running two ML classifiers — a phishing URL detector and a 7-class network intrusion detector — with a unified filterable threat feed and confidence scoring.</p>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Random Forest</span><span class="tag">CICIDS2017</span>
+            </div>
+            <button class="btn btn-primary btn-details" data-target="modal-sentinel">View Details</button>
+          </div>
+        </article>
+
         <article class="proj-card" data-repo="https://github.com/zenix20/VulnBot">
           <div class="proj-thumb thumb-vulnbot" aria-hidden="true">
             <svg viewBox="0 0 64 64" class="thumb-icon"><circle cx="32" cy="26" r="10" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 36v10M22 46h20M18 30h-6M52 30h-6M22 20l-5-5M47 15l-5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
@@ -490,10 +505,10 @@
             <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M14 12h30l6 6v34H14V12Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26h20M22 34h20M22 42h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
           </div>
           <div class="proj-body">
-            <h3>Next article — coming soon</h3>
+            <h3>Building SENTINEL: A Real-Time Security ML Detection Suite</h3>
             <p class="proj-sub">Medium</p>
-            <p class="proj-desc">Placeholder card for the next blog post. Duplicate this card and update the title, description and link when it's published.</p>
-            <a class="btn btn-ghost" href="ADD_MEDIUM_LINK_HERE" target="_blank" rel="noopener">Read Article</a>
+            <p class="proj-desc">How I built a live SOC-style dashboard that classifies phishing URLs and network intrusions in real time using Random Forest models trained on UCI Phishing and CICIDS2017 datasets.</p>
+            <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/building-sentinel-1d1265702c47" target="_blank" rel="noopener">Read Article</a>
           </div>
         </article>
 
@@ -571,6 +586,18 @@
       <li>Containerized the dashboard and published the image to Docker Hub; full technical write-up published on Medium.</li>
     </ul>
     <a class="btn btn-primary repo-link" href="https://github.com/zenix20/VPN_Server_From_Scratch" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+
+  <div class="modal" id="modal-sentinel" role="dialog" aria-modal="true" aria-labelledby="modal-sentinel-title">
+    <button class="modal-close" data-close>&times;</button>
+    <h3 id="modal-sentinel-title">SENTINEL — Real-Time Security ML Detection Suite</h3>
+    <ul>
+      <li>Phishing URL detector using a Random Forest trained on UCI Phishing Websites (11,055 samples) — 97.4% accuracy, 96% recall on phishing class, with live feature extraction via SSL, WHOIS, DNS, and HTML parsing.</li>
+      <li>Network intrusion classifier trained on CICIDS2017 (625K samples) detecting 7 attack categories — 99.9% accuracy using class_weight='balanced' to handle severe class imbalance.</li>
+      <li>Unified Flask dashboard with a live scrolling threat feed, per-event confidence rings, module filtering, and a manual URL scan box.</li>
+      <li>Feature importance analysis connected back to real security reasoning — Certificate Table presence and Byte-Entropy Histogram patterns were the strongest malware signals; Destination Port dominated intrusion detection.</li>
+    </ul>
+    <a class="btn btn-primary repo-link" href="https://github.com/zenix20/SENTINEL-Security-ML-Detection-Suite" target="_blank" rel="noopener">View Repository →</a>
   </div>
 
   <div class="modal" id="modal-vulnbot" role="dialog" aria-modal="true" aria-labelledby="modal-vulnbot-title">
