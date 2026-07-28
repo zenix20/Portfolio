@@ -79,6 +79,7 @@
             <span class="tag">Digital Forensics</span>
             <span class="tag">Vulnerability Assessment</span>
             <span class="tag">Pentesting</span>
+            <span class="tag">SOC</span>
           </div>
         </div>
         <div class="skill-card">
@@ -86,10 +87,11 @@
           <div class="tag-row">
             <span class="tag">Wireshark</span>
             <span class="tag">Metasploit</span>
-            <span class="tag">Burp Suite</span>
             <span class="tag">Nmap</span>
             <span class="tag">Autopsy</span>
             <span class="tag">JADX</span>
+            <span class="tag">Wazuh</span>
+            <span class="tag">Splunk</span>
           </div>
         </div>
         <div class="skill-card">
@@ -111,7 +113,6 @@
             <span class="tag">Java</span>
             <span class="tag">JavaScript</span>
             <span class="tag">HTML/CSS</span>
-            <span class="tag">scikit-learn</span>
           </div>
         </div>
       </div>
@@ -176,7 +177,7 @@
           <p class="cert-issuer">ISC2 · October 2025</p>
           <p>Security principles, business continuity, access controls, network security &amp; security operations. Valid 2025–2028.</p>
         </article>
-
+        
         <article class="cert-card">
           <h3>SOC Fundamentals</h3>
           <p class="cert-issuer">CyberExam · June 2026 · Score 94%</p>
@@ -469,12 +470,6 @@
             <button class="btn btn-primary btn-details" data-target="modal-todo">View Details</button>
           </div>
         </article>
-
-        <!--
-          To add a new project later, copy one <article class="proj-card"> block above,
-          give the button a new unique data-target, and add a matching .modal block
-          in the "PROJECT MODALS" section near the end of this file.
-        -->
       </div>
     </div>
   </section>
@@ -494,7 +489,7 @@
           </div>
           <div class="proj-body">
             <h3>Building My Own VPN Server From Scratch</h3>
-            <p class="proj-sub">Medium · Security build log</p>
+            <p class="proj-sub">Medium · build log</p>
             <p class="proj-desc">A step-by-step walkthrough of standing up a WireGuard VPN and building a custom Flask dashboard for live monitoring and peer management.</p>
             <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/building-my-own-vpn-server-from-scratch-a248a2a2554c" target="_blank" rel="noopener">Read Article</a>
           </div>
@@ -506,13 +501,36 @@
           </div>
           <div class="proj-body">
             <h3>Building SENTINEL: A Real-Time Security ML Detection Suite</h3>
-            <p class="proj-sub">Medium</p>
+            <p class="proj-sub">Medium · build log</p>
             <p class="proj-desc">How I built a live SOC-style dashboard that classifies phishing URLs and network intrusions in real time using Random Forest models trained on UCI Phishing and CICIDS2017 datasets.</p>
             <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/building-sentinel-1d1265702c47" target="_blank" rel="noopener">Read Article</a>
           </div>
         </article>
 
-        <!-- To add a new blog post, copy one <article class="proj-card"> block above -->
+        <article class="proj-card">
+          <div class="proj-thumb thumb-blog2" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M14 12h30l6 6v34H14V12Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26h20M22 34h20M22 42h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>I Built a SOC Home Lab From Scratch: Here's Everything Wazuh Caught When I Attacked My Own Network</h3>
+            <p class="proj-sub">Medium · build log</p>
+            <p class="proj-desc">I built a SOC home lab from scratch then attacked it myself. A Wazuh SIEM server, Windows 10 Pro target, Kali Linux attacker. Then I played both sides running reconnaissance and a brute-force attack from Kali, and watching my own SIEM catch it in real time.</p>
+            <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/i-built-a-soc-home-lab-from-scratch-heres-everything-wazuh-caught-when-i-attacked-my-own-network-20cb7adb643e target="_blank" rel="noopener">Read Article</a>
+          </div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-thumb thumb-blog2" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="thumb-icon"><path d="M14 12h30l6 6v34H14V12Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 26h20M22 34h20M22 42h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="proj-body">
+            <h3>The Calm Before the Storm: Tracing a Full Attack Chain in Splunk</h3>
+            <p class="proj-sub">Medium · CTF Write-up</p>
+            <p class="proj-desc">I signed up for a 3-hour SOC Analyst L2 blue-team CTF built entirely around Splunk. Vertex Financial, a fictional company, had flagged unusual overnight activity across several endpoints and servers. No ransom note. No encrypted files. Just a quiet, uneasy feeling that something had already gotten in and my job was to find it before it detonated.</p>
+            <a class="btn btn-primary" href="https://medium.com/@zainabqureshi620/the-calm-before-the-storm-tracing-a-full-attack-chain-in-splunk-ad8b25c2b77f" target="_blank" rel="noopener">Read Article</a>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
